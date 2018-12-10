@@ -69,7 +69,7 @@ Base template: goal is to verify that all field properties work as expected. Fie
     </Field>
     <!-- Taxonomy fields -->
     <!-- Taxonomy field with default value set, note that this implies that one provisions the terms with a known ID -->
-    <Field ID="{39E95FAA-894F-4FED-879D-A1A6A8381149}" Type="Note" Name="FLD_50_Note" StaticName="FLD_50_Note" DisplayName="Fld 50 note" Group="PnP Demo" ShowInViewForms="FALSE"  Required="FALSE" Hidden="TRUE" CanToggleHidden="TRUE" />
+    <Field ID="{39E95FAA-894F-4FED-879D-A1A6A8381149}" Type="Note" Name="FLD_50TaxHTField" StaticName="FLD_50TaxHTField" DisplayName="FLD_50TaxHTField" Group="PnP Demo" ShowInViewForms="FALSE"  Required="FALSE" Hidden="TRUE" CanToggleHidden="TRUE" />
     <Field ID="{35B749BF-0FE3-48F9-A84B-C5EA05246DEB}" Type="TaxonomyFieldType" Name="FLD_50" StaticName="FLD_50" DisplayName="Fld 50" Group="PnP Demo" ShowField="Term1033" Required="FALSE" EnforceUniqueValues="FALSE" Mult="FALSE">
       <Default>1;#Tuesday|bec2fdc9-fb86-4d99-ba17-cd485ebaf33e</Default>
       <Customization>
@@ -99,7 +99,7 @@ Base template: goal is to verify that all field properties work as expected. Fie
     </Field>
     <!-- Multi value taxonomy field with default values set, note that this implies that one provisions the terms with a known ID. This field also contains all
          possible customization properties -->
-    <Field ID="{0F8532DF-F175-48B4-A0BB-648D8577D44C}" Type="Note" Name="FLD_51_Note" StaticName="FLD_51_Note" DisplayName="Fld 51 note" Group="PnP Demo" ShowInViewForms="FALSE"  Required="FALSE" Hidden="TRUE" CanToggleHidden="TRUE" />
+    <Field ID="{0F8532DF-F175-48B4-A0BB-648D8577D44C}" Type="Note" Name="FLD_51TaxHTField" StaticName="FLD_51TaxHTField" DisplayName="FLD_51TaxHTField" Group="PnP Demo" ShowInViewForms="FALSE"  Required="FALSE" Hidden="TRUE" CanToggleHidden="TRUE" />
     <Field ID="{D582DFF8-CCAB-4C15-AA8E-253D5FC56AC4}" Type="TaxonomyFieldTypeMulti" Name="FLD_51" StaticName="FLD_51" DisplayName="Fld 51" Group="PnP Demo" ShowField="Term1033" Required="FALSE" EnforceUniqueValues="FALSE" Mult="TRUE">
       <Default>2;#Wednesday|d1d40a95-e8cf-4d45-acc7-ce12bc903707;#1;#Tuesday|bec2fdc9-fb86-4d99-ba17-cd485ebaf33e</Default>
       <Customization>
