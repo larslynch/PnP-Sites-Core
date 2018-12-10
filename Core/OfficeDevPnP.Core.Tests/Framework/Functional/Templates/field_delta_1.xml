@@ -48,7 +48,7 @@ Base template: Goal is to verify that delta handling of fields works. Field prop
     </Field>
     <!-- Taxonomy fields -->
     <!-- Updated elements: Default -->
-    <Field ID="{39E95FAA-894F-4FED-879D-A1A6A8381149}" Type="Note" Name="FLD_50_Note" StaticName="FLD_50_Note" DisplayName="Fld 50 note" Group="PnP Demo" ShowInViewForms="FALSE"  Required="FALSE" Hidden="TRUE" CanToggleHidden="TRUE" />
+    <Field ID="{39E95FAA-894F-4FED-879D-A1A6A8381149}" Type="Note" Name="FLD_50TaxHTField" StaticName="FLD_50TaxHTField" DisplayName="FLD_50TaxHTField" Group="PnP Demo" ShowInViewForms="FALSE"  Required="FALSE" Hidden="TRUE" CanToggleHidden="TRUE" />
     <Field ID="{35B749BF-0FE3-48F9-A84B-C5EA05246DEB}" Type="TaxonomyFieldType" Name="FLD_50" StaticName="FLD_50" DisplayName="Fld 50" Group="PnP Demo" ShowField="Term1033" Required="FALSE" EnforceUniqueValues="FALSE" Mult="FALSE">
       <Default>2;#Wednesday|d1d40a95-e8cf-4d45-acc7-ce12bc903707</Default>
       <Customization>
